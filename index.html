@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>weather</title>
+</head>
+<body>
+<div class="wrapper">
+
+    <h2>Weather checker</h2>
+    <p>Find out the weather in<div id="translator-div">city</div></p>
+    <form id="weather-form">
+
+    <input type="text" id="city-input" placeholder="Enter city">
+    <button disabled type="submit" id="my-button">Get weather</button>
+
+    </form>
+
+    <div id="error"></div>
+
+    <div id="data-container"></div>
+
+</div>
+
+<script src="jquery.js"></script>
+<script src="API.js"></script>
+<script src="TextTranslator.js"></script>
+<script src="ButtonController.js"></script>
+</body>
+</html>
